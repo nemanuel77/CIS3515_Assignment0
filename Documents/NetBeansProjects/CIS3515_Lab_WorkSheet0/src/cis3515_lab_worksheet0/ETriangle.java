@@ -23,7 +23,7 @@ public class ETriangle extends Shape {
     
     @Override
     public void printDimensions(){
-        System.out.println("This is a square.\nSide Length = " +sideE);
+        System.out.println("This is an Equilateral Triangle.\nSide Length = " +sideE);
         
     }
     
