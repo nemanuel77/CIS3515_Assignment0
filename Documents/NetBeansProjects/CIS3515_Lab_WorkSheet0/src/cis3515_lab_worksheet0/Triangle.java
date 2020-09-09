@@ -28,7 +28,7 @@ public class Triangle extends Shape {
     
     @Override
     public void printDimensions(){
-        System.out.println("Side A = " +sideA + "\nSide B = " +sideB+ "\nSide C = " +sideC);
+        System.out.println("This is a Triangle.\nSide A = " +sideA + "\nSide B = " +sideB+ "\nSide C = " +sideC);
         
     }
     
