@@ -9,6 +9,9 @@ import java.util.Scanner;
 /**
  *
  * @author hyaci
+ *  //https://github.com/nemanuel77/CIS3515_Assignment0
+ *  //main class for basic shapes assignment 
+ * 
  */
 public class CIS3515_Lab_WorkSheet0 {
 
@@ -55,7 +58,7 @@ public class CIS3515_Lab_WorkSheet0 {
         double sideE = kb.nextInt();
         
         
-        
+        System.out.println("\n");
         
    
         Square Square = new Square(sq);
@@ -70,7 +73,7 @@ public class CIS3515_Lab_WorkSheet0 {
         ETriangle ETriangle = new ETriangle(etri);
         ETriangle.setETriDimensions(sideE);
         
-        
+        System.out.println("\n");
         
         
         
@@ -78,17 +81,26 @@ public class CIS3515_Lab_WorkSheet0 {
         Square.printDimensions();
         System.out.println("Area: " +Square.getArea());
         
+        System.out.println("\n");
+        
         System.out.println(Circle.getName());
         Circle.printDimensions();
         System.out.println("Area: " + Circle.getArea());
+        
+        System.out.println("\n");
         
         System.out.println(Triangle.getName());
         Triangle.printDimensions();
         System.out.println("Area: " +Triangle.getArea());
         
+        System.out.println("\n");
+        
         System.out.println(ETriangle.getName());
         ETriangle.printDimensions();
         System.out.println("Area: " + ETriangle.getArea());
+        
+        
+        System.out.println("PROGRAM END\n");
         
         
         
